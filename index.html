@@ -14,9 +14,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Monoton&family=PT+Sans+Narrow&display=swap" rel="stylesheet">  
+<!--animate css-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
     <title>Heavy Finace</title>
   </head>
   <body>
+    <!--design-->
+    <!--design-end-->
     <!--nav-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark ">
       <div class="container-fluid">
@@ -31,13 +38,16 @@
               <a class="nav-link" href="index.html">Yield</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contract</a>
+              <a class="nav-link" href="https://www.bscscan.com/token/0x9dcece8f4d076c2dd8843900ade00c8af2e8ffa2">Contract</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Telegram</a>
+              <a class="nav-link" href="https://t.me/HEAVYFINANCEe">Telegram</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Twitter</a>
+              <a class="nav-link" href="https://mobile.twitter.com/heavyfinance">Twitter</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" href="https://heavyfinance.medium.com/heavy-finance-2fbe207c5ad0">Medium</a>
             </li>
           </ul>
         </div>
@@ -47,7 +57,8 @@
   <!--header-->
   <div class="container-fluid" id="Header">
     <div class="row d-flex justify-content-center text-center">
-      <div class="col-md-6">
+      <div class="col-md-6"  data-aos="fade-up"
+     data-aos-duration="2000">
         <h1>HEAVY FINANCE </h1>
         <h3>Reflect token on the Binance Smart Chain.</h3>
            <p>Heavy dosen't aim to replace any existing tokens or coins.
@@ -60,11 +71,13 @@
           1% per transfer.</p>
       </div>
             <div class="col-md-12">
-        <button class="btn btn-secondary">Claim</button>
-        <button class="btn btn-secondary">Connect Wallet</button>
+        <button class="btn btn-secondary" data-aos="fade-left" data-aos-duration="2000">Claim</button>
+        <button class="btn btn-secondary" data-aos="fade-right" data-aos-duration="2000">Connect Wallet</button>
       </div>
-      <div class="col-md-12">
-        <img src="https://www.brandcrowd.com/gallery/brands/pictures/picture12383280915126.jpg" class="img-fluid"/>
+      <div class="col-md-12"  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="3000">
+        <img src="https://o.remove.bg/downloads/f2af4453-48e4-4f46-8ef1-a14d8520d039/picture12383280915126-removebg-preview.png" class="img-fluid"/>
       </div>
     </div>
   </div>
@@ -72,7 +85,7 @@
   <!--section1-->
   <div class="container-fluid" id="section1">
     <div class="column d-flex justify-content-center text-center">
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="zoom-in" data-aos-duration="2500">
         <h2>How to claim HVY</h2>
         <p>Download Metamask on Google Chrome if you don't have it, and load the wallet into it.
         Then click on "CONNECT WALLET" above. Once your wallet is connected, you will be able to claim. 
@@ -88,9 +101,9 @@
   </div>
   <!--section1 end-->
   <!--roadmap-->
-    <div class="text-center">
+    <div class="text-center" >
       <h1 class="roadmap">OUR MISSION</h1>
-  <div id="div">
+  <div id="div" class="text-center" data-aos="flip-in">
   <p>Heavy token is a community-based experimental project, which was created as a deflationary currency and produced on the Binance Smart Chain</p>
 <p>After claiming, since Heavy is a community project, the community will decide how the Heavy token will develop</p>
 <p>The information provided about the development of the project is published monthly by the Heavy team.</p>
@@ -104,13 +117,19 @@
     <div class="container-fluid">
       <div class="column d-flex justify-content-center text-center">
         <div class="col-md-12">
-          <h4>HEAVY TOKEN - 2021</h4>
+          <h5>HEAVY FINANCE - 2021</h5>
         </div>
       </div>
     </div>
+    </div>
   </footer>
+</div>
   <!--footer end-->
   </body>
+  <script>
+  AOS.init();
+</script>
+  <script src="styles/styles.js"></script>
   <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

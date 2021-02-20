@@ -6,6 +6,7 @@ body,html{
     overflow-x:none;
     font-family: 'Monoton', cursive;
     font-family: 'PT Sans Narrow', sans-serif;
+    background:#fdfffc;
 }
 .navbar-brand{
     font-family: 'Monoton', cursive;
@@ -14,14 +15,51 @@ body,html{
     color:white;
 }
 #Header{
-    margin-top:80px;
+    margin-top:40px;
+    width: 100%;
+  min-height: 600px;
+  color:white;
+  background-color:#0d3b66;
 }
 #Header h1{
     font-weight:bolder;
     font-size:30px;
+    margin-top: 40px;
 }
 #section1{
     margin-bottom: 40px;
+    padding:40px;
+    width: 100%;
+    color:white !important;
+  min-height: 400px;
+  background-color: #0c1821;
+  position: relative;
+  color:black;
+}
+#section1 h2{
+  margin-top:50px;
+}
+#section1:before {
+  content: '';
+  width: 50%;
+  height: 100px;
+  background-color:#0c1821;
+  position: absolute;
+  top: -47px;
+  left: 0;
+  -webkit-transform: skewY(8deg);
+  transform: skewY(8deg);
+}
+#section1:after {
+  content: '';
+  width: 50%;
+  height: 100px;
+  background-color: #0c1821;
+  position: absolute;
+  top: -47px;
+  right: 0;
+  -webkit-transform: skewY(-8deg);
+  transform: skewY(-8deg);
 }
 .roadmap{
     font-weight:bolder;
@@ -42,7 +80,7 @@ footer{
 #div p {
 
   border-top: 2px dashed;
-  border-color: blue !important;
+  border-color: red !important;
   margin:0; padding: 30px;
 }
 
@@ -75,3 +113,7 @@ footer{
   border-bottom-left-radius:0;
 }
 /*timeline end*/
+
+/*area*/
+
+/*area end*/
